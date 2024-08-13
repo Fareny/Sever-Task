@@ -1,0 +1,20 @@
+.search-tesults-info {
+    display: flex;
+    position: relative;
+    height: calc(100dvh - 112px);
+    overflow: auto;
+
+    .search-results-info__container {
+        display: flex;
+        flex-direction: column;
+
+        .search-results-info__title {
+            font-size: 48px;
+            padding: 24px 32px;
+        }
+
+        .search-results-info__pagination {
+            min-height: 52px;
+        }
+    }
+}

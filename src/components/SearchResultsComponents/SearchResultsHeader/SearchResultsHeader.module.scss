@@ -1,0 +1,9 @@
+.search-results-header__form {
+    display: flex;
+    gap: 8px;
+
+    .search-results-header__input-wrapper {
+        max-width: 912px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+.search-results-element {
+    min-width: 480px;
+    max-width: 480px;
+    height: calc(100dvh - 112px);
+    background-color: var(--background);
+
+    .search-results-element__no-data {
+        color: var(--text-dark-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(100dvh - 112px);
+        font-size: 14px;
+    }
+
+    .search-results-element__content {
+        padding: 24px;
+
+        .search-results-element__header {
+            margin-bottom: 16px;
+
+            .search-results-element__title {
+                font-size: 32px;
+                overflow-wrap: break-word;
+            }
+        }
+
+        .search-results-element__container {
+            margin-bottom: 24px;
+        }
+
+        .primary-language {
+            .primary-language-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 16px;
+
+                .primary-language {
+                    color: var(--text-white-color);
+                    font-size: 13px;
+                    padding: 6px 12px;
+                    background-color: var(--button-background);
+                    border-radius: 100px;
+                }
+
+                .primary-element__stargazer {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    .primary-element__icon-wrapper {
+                        width: 24px;
+                        height: 24px;
+
+                        .primary-element__icon {
+                            color: #FFB400;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+
+            }
+
+            .search-results-element__languages {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+
+                .search-results-element__language {
+                    border-radius: 100px;
+                    background-color: var(--element-background);
+                    padding: 6px 12px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

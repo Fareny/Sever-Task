@@ -1,0 +1,20 @@
+.initial-render-message,
+.no-results-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100dvh - 112px);
+
+    .initial-render-message__title,
+    .no-results-message__title {
+        font-size: 46px;
+        color: var(--text-dark-color);
+    }
+}
+
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100dvh - 112px);
+}

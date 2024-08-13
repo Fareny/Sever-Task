@@ -1,0 +1,10 @@
+.app-button {
+    color: var(--text-white-color) !important;
+    background-color: var(--button-background) !important;
+    width: 105px;
+    height: 42px;
+
+    &:hover {
+        background-color: var(--button--hover-background) !important;
+    }
+}
